@@ -1,0 +1,13 @@
+on: push
+name: BoJoNotoMoFo
+
+jobs:
+  run_self:
+    name: Notify ACE Teknologi
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slack Notification
+        uses: ace-teknologi/BoJoNotoMoFo@master
+        env:
+          MESSAGE: "${{ github.actor }} committed to ${{ github.repository }}"
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
