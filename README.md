@@ -3,7 +3,7 @@
 A GitHub action to send a notification via Slack.
 
 ![Boris Johnson](./bojo.jpg)
-> Image [Chatham House](https://www.flickr.com/photos/chathamhouse/31225992622)
+> Image by [Chatham House](https://www.flickr.com/photos/chathamhouse/31225992622) under [Creative Commons Attribution 2.0](https://creativecommons.org/licenses/by/2.0/)
 
 ## Prerequisites
 
